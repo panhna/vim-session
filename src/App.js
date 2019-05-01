@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './vim-logo.svg';
 import './App.css';
-import VimBenefit from './comp/vim-benefit';
 
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>VIM - Advance TextEditor</h1>
-        <VimBenefit />
         <a
           className="App-link"
           href="https://www.vim.org/"
